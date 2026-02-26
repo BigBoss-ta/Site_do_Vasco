@@ -16,3 +16,32 @@ body{
 #icon{
     width: 65px;
 }
+
+#noticias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.noticia {
+    margin: 10px;
+    text-align: center;
+
+    background-color: #383838;
+    color: #ff3131;
+    border: 2px solid #202020;
+
+}
+
+.img-noticia {
+    width: 400px;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+
+    background-color: #383838;
+    color: #ff3131;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
