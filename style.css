@@ -18,14 +18,17 @@ body{
 }
 
 #noticias{
-    display: flex;
     flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     justify-content: space-around;
 }
 
 .noticia {
-    margin: 10px;
+    
+    margin: 12px;
     text-align: center;
+    text-overflow: clip;
 
     background-color: #383838;
     color: #ff3131;
@@ -35,6 +38,13 @@ body{
 
 .img-noticia {
     width: 400px;
+}
+
+#escalação {
+    text-align: center;
+    border-radius: 40px;
+    background-color: #797979;
+    margin: 40px;
 }
 
 footer {
