@@ -40,11 +40,16 @@ body{
     width: 400px;
 }
 
-#escalação {
+.escalacao {
     text-align: center;
     border-radius: 40px;
-    background-color: #797979;
+
+    background-color: rgb(94, 138, 209);
     margin: 40px;
+}
+
+.icone-escalação {
+    width: 70px;
 }
 
 footer {
